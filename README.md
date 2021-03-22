@@ -16,7 +16,7 @@ Sastoji se od dva podsustava. Odnosno dva mikroupravljača esp8266 te dva senzor
 
 ![](Images/IMG_4781.jpg)
 
-2. Other subsystem 2.ESP8266 is located near the solar collector it consists of power supply and temperature sensor. His function is to send temperature data to subsystem 1, with client server method.
+2. Other subsystem ESP8266 is located near the solar collector it consists of power supply and temperature sensor. His function is to send temperature data to subsystem 1, with client server method.
 
    Drugi podusutav ESP8266 smješten je kod solarnog kolektora sastoji se od napajanja, senzora temperature  ima funkciju za slanje podatka o temperaturi na podsustav 1, klijent server metodom
    
@@ -25,7 +25,7 @@ Sastoji se od dva podsustava. Odnosno dva mikroupravljača esp8266 te dva senzor
 3. Operation of the microcontroller
 The microcontrollers communicate on the local network using the client-server method, and in the event of being left without the Internet, they continue to work. In the event of a local mains failure or in the event that the collector temperature data does not reach the microcontroller at the boiler, the pump does not run in order to avoid scenarios of the pump remaining running in the event of a mains failure.
 
-3. Odrađivanje mikrokontrolera
+   Odrađivanje mikrokontrolera
 Mikrokonroleri komuniciraju na lokalnoj mreži klijent-server metodom, u slučaju ostanka bez interneta nastavljaju s radom. U slučaju pada lokalne mreže ili u slučaju da ne dođe podatak o temperaturi u kolektoru do mikrokontrolera kod bojlera pumpa ne odrađuje ne bi li se izbjegli scenariji da pumpa ostane raditi u slučaju pada mreže.  
 
 4. Blynk application
@@ -37,6 +37,8 @@ Putem Blynk aplikacije  u tab-u „Očitanja“ korisnik ima uvid u povijesni pr
 ![](Images/WhatsApp%20Image%202021-01-11%20at%2012.42.48.jpeg)
 
 Automation is done on the microcontroller itself independently of Blynk. Blynk is only used to display data and send new management parameters. So in case of being left without electricity supply, internet unavailability or local network failure, the microcontroller continues with the default operation.
+
+Automatika se odrađuje na samom mikrokontroleru neovisno o Blynk-u. Blynk služi samo za prikaz podataka i slanje novih parametara za upravljanje. Tako da u slučaju ostanka bez opskrbe električnom energijom, nedostupnosti interneta ili ispada lokalne mreže mikrokontroler nastavlja sa zadanim radom.
 
 ![](Images/WhatsApp%20Image%202021-01-11%20at%2015.54.48.jpeg)
 
