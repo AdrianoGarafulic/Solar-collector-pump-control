@@ -28,7 +28,7 @@ Mikrokonroleri komuniciraju na lokalnoj mreži klijent-server metodom, u slučaj
 
 4. Blynk application
 Through the Blynk application in the "Readings" tab, the user has an insight into the historical temperature display in the boiler and in the solar collector also has a display of when and how much and at what temperatures the pump was running. It also has information about the wifi signals of each subsystem.
-
+ 
 4.	Blynk aplikacija
 Putem Blynk aplikacije  u tab-u „Očitanja“ korisnik ima uvid u povijesni prikaz temperature u bojleru te u solarnom kolektoru također ima prikaz  kad i koliko i prikojim temperaturama je pumpa radila.  Također ima informaciju o wifi signala pojedinog podsustava.
 
