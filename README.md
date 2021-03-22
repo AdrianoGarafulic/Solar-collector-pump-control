@@ -33,5 +33,6 @@ Through the Blynk application in the "Readings" tab, the user has an insight int
 Putem Blynk aplikacije  u tab-u „Očitanja“ korisnik ima uvid u povijesni prikaz temperature u bojleru te u solarnom kolektoru također ima prikaz  kad i koliko i prikojim temperaturama je pumpa radila.  Također ima informaciju o wifi signala pojedinog podsustava.
 
 ![](Images/WhatsApp%20Image%202021-01-11%20at%2012.42.48.jpeg)
+![](Images/WhatsApp%20Image%202021-01-11%20at%2015.54.48.jpeg)
 
 
