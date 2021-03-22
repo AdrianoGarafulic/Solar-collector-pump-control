@@ -12,19 +12,20 @@ Sastoji se od dva podsustava. Odnosno dva mikroupravljača esp8266 te dva senzor
 
 1. The subsystem 1. ESP8266 installed in the boiler consists of the power supply, the relay that controls the pump, and the temperature sensor that is installed in the boiler.
 
-  Podsustav 1. ESP8266 postavio se kod bojlera  sastoji se od napajanja, releja koji upravlja pumpom, te senzora temperature koji se postavio u bojleru.
+   Podsustav 1. ESP8266 postavio se kod bojlera  sastoji se od napajanja, releja koji upravlja pumpom, te senzora temperature koji se postavio u bojleru.
 
 ![](Images/IMG_4781.jpg)
 
 2. Other subsystem 2.ESP8266 is located near the solar collector it consists of power supply and temperature sensor. His function is to send temperature data to subsystem 1, with client server method.
 
-	Drugi podusutav ESP8266 smješten je kod solarnog kolektora sastoji se od napajanja, senzora temperature  ima funkciju za slanje podatka o temperaturi na podsustav 1, klijent server metodom
+   Drugi podusutav ESP8266 smješten je kod solarnog kolektora sastoji se od napajanja, senzora temperature  ima funkciju za slanje podatka o temperaturi na podsustav 1, klijent server metodom
+   
 ![](Images/IMG_2182.jpg)
 
 3. Operation of the microcontroller
 The microcontrollers communicate on the local network using the client-server method, and in the event of being left without the Internet, they continue to work. In the event of a local mains failure or in the event that the collector temperature data does not reach the microcontroller at the boiler, the pump does not run in order to avoid scenarios of the pump remaining running in the event of a mains failure.
 
-  Odrađivanje mikrokontrolera
+3. Odrađivanje mikrokontrolera
 Mikrokonroleri komuniciraju na lokalnoj mreži klijent-server metodom, u slučaju ostanka bez interneta nastavljaju s radom. U slučaju pada lokalne mreže ili u slučaju da ne dođe podatak o temperaturi u kolektoru do mikrokontrolera kod bojlera pumpa ne odrađuje ne bi li se izbjegli scenariji da pumpa ostane raditi u slučaju pada mreže.  
 
 4. Blynk application
