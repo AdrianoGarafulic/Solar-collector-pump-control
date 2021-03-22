@@ -7,4 +7,6 @@ Two arduino microcontrollers are controlling the pump that pushes water from a s
 
 It consists of two subsystems, or two microcontrollers esp8266 and two temperature sensors (one in the boiler, the other in the solar panel), two voltage suply and relay for pump driving.  Subsystems exchange temperature data with client-server method and comparing them, after it is desired temperature difference is achieved (the user can unijent through blynk applications ) the relay to which the pump is connected is switched on and the heated water from the solar collector goes to the boiler.
 
+1. The subsystem ESP8266 installed in the boiler consists of the power supply, the relay that controls the pump, and the temperature sensor that is installed in the boiler.
+
 ![](Images/IMG_4781.jpg)
